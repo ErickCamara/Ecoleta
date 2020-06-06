@@ -132,7 +132,7 @@ Para iniciar o Frontend é bem simples:
 
 :bulb: ***Caso ocorra algum erro de depêndencia*** 
 
--Basta verificar as dependências utilizadas na aplicação abrindo arquivo **package.json** e instalando as que estejam faltando com o seguinte comando:
+- Basta verificar as dependências utilizadas na aplicação abrindo arquivo **package.json** e instalando as que estejam faltando com o seguinte comando:
 ```sh
   $ npm install <NOME-DA-DEPENDENCIA>
 ```
