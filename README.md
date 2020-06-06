@@ -109,9 +109,15 @@ O Backend deverá ser o primeiro a ser iniciado pois tanto o Aplicativo Web quan
 
 Para iniciar o Frontend é bem simples:
 
-- Acesse a pasta web e execute
+- Para acessar a pasta e rodar a aplicação execute:
 ```sh
+  # Entrando na pasta
   $ cd web
+
+  # Instalando as Dependências
+  $ npm install
+
+  # Iniciando a aplicação
   $ npm start
 ```
 - Será aberta uma nova aba no seu navegador com a aplicação rodando
@@ -119,11 +125,7 @@ Para iniciar o Frontend é bem simples:
 
 <br/>
 
-:bulb: ***Caso ocorra algum erro de depêndencia basta executar o seguinte comando dentro da pasta web:***
-```sh
-  $ npm install
-```
-- Se o problema persisir basta verificar as dependências utilizadas na aplicação abrindo arquivo **package.json** e instalando as aplicações que estejam faltando com o seguinte comando:
+:bulb: ***Caso ocorra algum erro de depêndencia basta verificar as dependências utilizadas na aplicação abrindo arquivo **package.json** e instalando as aplicações que estejam faltando com o seguinte comando:***
 ```sh
   $ npm install <NOME-DA-DEPENDENCIA>
 ```
@@ -135,13 +137,16 @@ Para iniciar o Frontend é bem simples:
 
 Para executar o aplicativo diretamente no seu celular é necessário ter o aplicativo **Expo** instalado. Caso você ainda não tenha, baixe o mesmo antes de continuar
 
-- Acesse a pasta mobile
+- Para acessar a pasta e rodar a aplicação execute:
 ```sh
+  # Entrando na pasta
   $ cd mobile
-```
-- Execute o comando
-```sh
-  $ Expo Start
+
+  # Instalando as Dependências
+  $ npm install
+
+  # Iniciando a aplicação
+  $ npm start
 ```
 - Em seguida será aberto uma nova aba no seu navegador com algumas informações e um QR Code, caso a aba não abra corretamente, verifique seu terminal que no mesmo também terá as mesmas informações.
 - Agora abra o Aplicativo do Expo no seu celular
@@ -149,11 +154,11 @@ Para executar o aplicativo diretamente no seu celular é necessário ter o aplic
 
 <br/>
 
-:bulb: ***Caso ocorra algum erro de depêndencia basta executar o seguinte comando dentro da pasta mobile:***
+:bulb: ***Caso ocorra algum erro relacionado as fontes como Ubuntu_700Bold, basta executar:***
 ```sh
-  $ npm install
+  $ sudo expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
 ```
-- Se o problema persisir basta verificar as dependências utilizadas na aplicação abrindo arquivo **package.json** e instalando as aplicações que estejam faltando com o seguinte comando:
+- Se houver algum problema com outras dependências, é possivel ver todas que estão sendo utilizadas na aplicação abrindo o arquivo **package.json** e instalando as que estejam faltando com o seguinte comando:
 ```sh
   $ npm install <NOME-DA-DEPENDENCIA>
 ```
