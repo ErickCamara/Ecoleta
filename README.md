@@ -44,13 +44,13 @@ Esse projeto foi desenvolvido com a seguinte Stack
 
 **Podemos ver abaixo o resultado das aplicações Web e Mobile**
 
-- Ecoleta Web - Versão com o intuito de realizar o cadastro de oontos de coleta, de acordo com a localização
+- ***Ecoleta Web:*** Versão com o intuito de realizar o cadastro de oontos de coleta, de acordo com a localização
 
 <h1 align="center">
     <img alt="Web" src="files/ecoleta.gif" width="900px">
 </h1>
 
-- Ecoleta Mobile: A versão mobile foi feita pensando no usuário que deseja reciclar items, mas não sabe os pontos próximos que realizam essa coleta
+- ***Ecoleta Mobile:*** A versão mobile foi feita pensando no usuário que deseja reciclar items, mas não sabe os pontos próximos que realizam essa coleta
 
 <h1 align="center">
     <img alt="Web" src="files/ecoletaMobile.gif" width="200px">
@@ -93,8 +93,13 @@ O Backend deverá ser o primeiro a ser iniciado pois tanto o Aplicativo Web quan
 ```
 - Já existem um banco de dados SQLite criado, mas caso deseje um banco zerado execute os comandos abaixo dentro da pasta **server**
 ```sh
+  # Removendo o banco de dados existente
   $ rm -rf src/database/database.sqlite
+
+  # Aplicando as migrations
   $ npm run knex:migrate
+
+  # Adicionando os items à tabela
   $ npm run knex:seed
 ```
 - Inicie a API
