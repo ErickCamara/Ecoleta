@@ -125,7 +125,9 @@ Para iniciar o Frontend é bem simples:
 
 <br/>
 
-:bulb: ***Caso ocorra algum erro de depêndencia basta verificar as dependências utilizadas na aplicação abrindo arquivo **package.json** e instalando as aplicações que estejam faltando com o seguinte comando:***
+:bulb: ***Caso ocorra algum erro de depêndencia*** 
+
+-Basta verificar as dependências utilizadas na aplicação abrindo arquivo **package.json** e instalando as que estejam faltando com o seguinte comando:
 ```sh
   $ npm install <NOME-DA-DEPENDENCIA>
 ```
@@ -150,11 +152,11 @@ Para executar o aplicativo diretamente no seu celular é necessário ter o aplic
 ```
 - Em seguida será aberto uma nova aba no seu navegador com algumas informações e um QR Code, caso a aba não abra corretamente, verifique seu terminal que no mesmo também terá as mesmas informações.
 - Agora abra o Aplicativo do Expo no seu celular
-- Clique no botão **Scan QR Code** e seu aplicativo começará a ser carregado
+- Clique no botão **Scan QR Code**, escaneie o código e seu aplicativo começará a ser carregado
 
 <br/>
 
-:bulb: ***Caso ocorra algum erro relacionado as fontes como Ubuntu_700Bold, basta executar:***
+:bulb: ***Caso ocorra algum erro relacionado as fontes como por exemplo a fonte Ubuntu_700Bold, basta executar:***
 ```sh
   $ sudo expo install expo-font @expo-google-fonts/ubuntu @expo-google-fonts/roboto
 ```
@@ -162,3 +164,8 @@ Para executar o aplicativo diretamente no seu celular é necessário ter o aplic
 ```sh
   $ npm install <NOME-DA-DEPENDENCIA>
 ```
+Ou
+```sh
+  $ expo install <NOME-DA-DEPENDENCIA>
+```
+Dependendo da dependência
